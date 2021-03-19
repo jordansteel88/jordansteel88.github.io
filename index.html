@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Jordan Steel | Full Stack Web Developer</title>
+    </head>
+    
+    <body>
+        <script>
+            document.body.classList.add('js-loading');
+            window.addEventListener("load", showPage);
+            function showPage() {
+              document.body.classList.remove('js-loading');
+            }
+        </script>
+
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#about-me" class="navigation__link">About Me</a></li>
+                    <li class="navigation__item"><a href="#features" class="navigation__link">Features</a></li>
+                    <li class="navigation__item"><a href="#recent-projects" class="navigation__link">Recent Projects</a></li>
+                    <li class="navigation__item"><a href="mailto:bravocharlie2008@gmail.com" class="navigation__link">Email Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <header class="header">
+            <!-- <div class="header__logo-box">
+                <img src="" alt="logo" class="header__logo">
+            </div> -->
+
+            <div class="header__text-box">
+                <h1 class="heading-primary"> 
+                    <span class="heading-primary--main">Jordan Steel</span>
+                    <span class="heading-primary--sub">Full Stack Web Developer</span>
+                </h1>
+            </div>
+        </header>   
+        
+        <main>
+            <section class="section-about u-margin-bottom-big">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 id="about-me" class="heading-secondary">
+                        About Me
+                    </h2>
+                </div>
+                
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-margin-bottom-small">I'm a musician-turned-software developer currently located in Austin, TX. I have experience building full stack JavaScript and Python applications, and I have a passion for sleek, responsive UI and a clean, organized code base.</h3>
+                        <h3 class="heading-tertiary u-margin-bottom-medium">I've fallen in love with many different areas within the world of software development, but my ongoing focus is building web tools for musicians and music enrichment applications for non-musicians.</h3>
+
+                        <a href="https://www.linkedin.com/in/jordansteel88/" target="_blank" class="btn-text"><img class="u-logofy u-margin-x-medium u-margin-left" src="./img/LI-Logo.png" alt="LinkedIn logo"></a>
+                        <a href="https://github.com/jordansteel88" target="_blank" class="btn-text"><img class="u-logofy u-margin-x-medium" src="./img/GitHub_Logo.png" alt="GitHub logo"></a>
+                        <a href="https://resume.creddle.io/resume/25lonq8lfp4" target="_blank" class="btn-text"><img class="u-logofy-resume u-margin-x-medium" src="./img/resume.png" alt="resume logo"></a>
+                    </div>  
+
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <!-- <img src="" alt="photo 1" class="composition__photo composition__photo--p1">
+                            <img src="" alt="photo 2" class="composition__photo composition__photo--p2"> -->
+                            <img src="img/headshot.jpg" alt="photo 3" class="composition__photo composition__photo--p3">
+                        </div>
+                    </div>
+                </div> 
+            </section>
+
+            <section id="features" class="section-features">
+                <div class="row">
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon fas fa-code"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Languages and Frameworks</h3>
+                            <p class="feature-box__text">
+                                <ul>
+                                    <li>HTML5/CSS/JS</li>
+                                    <li>React</li>
+                                    <li>Express/Node</li>
+                                    <li>Python</li>
+                                    <li>Flask</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+ 
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon fas fa-database"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Database <br> Management</h3>
+                            <p class="feature-box__text">
+                                <ul>
+                                    <li>SQL</li>
+                                    <li>PostgreSQL</li>
+                                    <li>SQLAlchemy</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+     
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon fas fa-sitemap"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Libraries and <br> Utilities</h3>
+                            <p class="feature-box__text">
+                                <ul>
+                                    <li>Sass/SCSS</li>
+                                    <li>Bootstrap</li>
+                                    <li>jQuery</li>
+                                    <li>Axios</li>
+                                    <li>WTForms</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>       
+
+                    <div class="col-1-of-4">
+                        <div class="feature-box">
+                            <i class="feature-box__icon fas fa-tools"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Developer <br> Tools</h3>
+                            <p class="feature-box__text">
+                                <ul>
+                                    <li>VS Code</li>
+                                    <li>Git/Github</li>
+                                    <li>Unix Comman Line</li>
+                                    <li>Heroku</li>
+                                    <li>Insomnia</li>
+                                </ul>                            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-projects">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 id="recent-projects" class="heading-secondary">
+                        Recent Projects
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <div class="card">
+                            <div class="card__side card__side--front card__side--front-1">
+                                <div class="card__picture card__picture--1">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--1">Spotryst</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Spotify Concierge App</li>
+                                        <li>Powered by the Spotify API</li>
+                                        <li>JavaScript/Python/PostgreSQL</li>
+                                    </ul>
+                                </div>
+                            </div>     
+
+                            <div class="card__side card__side--back card__side--back-1">
+                                <div class="card__cta">
+                                    <div class="card__description-box">
+                                        <p class="card__description-text"><span class="card__description-span">Spotryst is a music discovery application that uses artist recommendations and audio analysis provided by the powerful Spotify API.</span> 
+                                                                          <span class="card__description-span">It allows users to discover new artists and tracks and integrate their selections with their Spotify accounts.</span>
+                                                                          <span class="card__description-span">It was created with a Python/Flask back end, <br> a JavaScript/jQuery/Bootstrap front end, <br> and PostgreSQL/SQLAlchemy for database management.</span> 
+                                        </p>
+                                        <a href="https://spotryst.herokuapp.com" target="_blank" class="btn btn--white u-margin-x-medium u-margin-bottom-small">SEE IT ONLINE</a>
+                                        <a href="https://github.com/jordansteel88/spotryst" target="_blank" class="btn btn--white u-margin-x-medium">SEE THE REPO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    
+                    <div class="col-1-of-2">
+                        <div class="card">
+                            <div class="card__side card__side--front card__side--front-2">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--2">Placeholder</span>
+                                </h4>
+                                <div class="card__details">
+                                    <ul>
+                                        <li>Placeholder App</li>
+                                        <li>Holds Place in Jordan's Portfolio</li>
+                                        <li>Keeps the Layout Looking Pretty</li>
+                                    </ul>
+                                </div>
+                            </div>     
+
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__description-box">
+                                        <p class="card__description-text"><span class="card__description-span">They say everything looks better with odd numbers of things. But sometimes I put even numbers—just to upset the critics.</span> 
+                                                                          <span class="card__description-span">A fan brush is a fantastic piece of equipment. Use it. Make friends with it.</span>
+                                                                          <span class="card__description-span">Every single thing in the world has its own personality - and it is up to you to make friends with the little rascals. Only think about one thing at a time. Don't get greedy.</span> 
+                                        </p>
+                                        <a href="https://en.wikipedia.org/wiki/Bob_Ross" target="_blank" class="btn btn--white u-margin-x-medium u-margin-bottom-small">SEE IT ONLINE</a>
+                                        <a href="https://github.com/jordansteel88" target="_blank" class="btn btn--white u-margin-x-medium">SEE THE REPO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+            </section>
+        </main>
+
+        <footer class="footer">
+            <!-- <div class="footer__logo-box">
+                <img src="" alt="full logo" class="footer__logo">
+            </div> -->
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list u-margin-left-small">
+                            <li class="footer__item"><a href="#about-me" class="footer__link footer__link-plain">About Me</a></li>
+                            <li class="footer__item"><a href="mailto:bravocharlie2008@gmail.com" class="footer__link footer__link-plain">Email Me</a></li>
+                        <!-- </ul>
+                        <ul> -->
+                            <li class="footer__item"><a href="https://www.linkedin.com/in/jordansteel88/" target="_blank" class="footer__link"><img class="u-logofy-footer" src="./img/LI-Logo-white.png" alt="LinkedIn logo"></a></li>
+                            <li class="footer__item"><a href="https://github.com/jordansteel88" target="_blank" class="footer__link"><img class="u-logofy-footer" src="./img/GitHub_Logo_White.png" alt="GitHub logo"></a></li>
+                            <li class="footer__item"><a href="https://resume.creddle.io/resume/25lonq8lfp4" target="_blank" class="footer__link"><img class="u-logofy-resume" src="./img/resume-white.png" alt="resume logo"></a></li>
+                        </ul>
+                            <!-- <li class="footer__item"><a href="#" class="footer__link">Cats</a></li> -->
+                    </div>
+                </div>               
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Built by <a href="#" class="footer__link">Jordan Steel </a> Copyright &copy; 2020 
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="tour photo" class="popup__img">
+                </div> 
+
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start Booking Now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read terms before booking</h3>
+                    <p class="popup__text">Where the full source distribution as originally made available by Apple identifying such program or work, and a notice stating that You distribute or in part contains or is under common control with, You, where "control" means (i) the power, direct or contributory patent infringement, then this License, and that the Copyright Holder maintains some semblance of artistic control over the development of that Contributor either alone and/or in combination with its Contributor Version directly or indirectly, from Original Code (or portions of the Work as distributed under the terms of that work are not compelled to copy the Work near the primary license under Licensed Patents to make, use, sell, offer for sale, have made, and/or otherwise dispose of Licensed Product or any portion thereof. Limitations on Patent License. Except as expressly permitted by and interpreted in all copies and that the Work constitutes modification of the United States of America, any litigation relating to the following manner.</p>
+                    <a href="#" class="btn btn--green">Book Now</a>
+                </div>
+            </div>
+        </div>
+        
+
+    <script src="app.js"></script>
+    </body>
+</html>
