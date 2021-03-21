@@ -12,5 +12,10 @@ function addNavEvents() {
 
 addNavEvents();
 
+function titleAnimation() {
+    const title = document.querySelector('#title-animation');
+    
+}
+
 
 
