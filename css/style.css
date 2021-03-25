@@ -141,10 +141,10 @@ body {
   transform: translate(-50%, -50%); }
 
 .u-logofy {
-  width: 10rem;
-  height: 3rem; }
+  width: 40px;
+  height: 40px; }
   .u-logofy-resume {
-    width: 3rem; }
+    width: 40px; }
   .u-logofy-footer {
     height: 2rem;
     color: #fff; }
@@ -171,15 +171,15 @@ body {
   margin-top: 10rem !important; }
 
 .u-margin-x-medium {
-  margin-left: 2rem !important;
-  margin-right: 2rem !important; }
+  margin-left: 3rem !important;
+  margin-right: 3rem !important; }
   @media (max-width: 56.25em) {
     .u-margin-x-medium {
       margin-left: 1rem !important;
       margin-right: 1rem !important; } }
 
 .u-margin-left {
-  margin-left: 5rem !important; }
+  margin-left: 11rem !important; }
 
 .u-margin-left-small {
   margin-left: 1rem !important; }
