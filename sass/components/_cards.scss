@@ -21,10 +21,14 @@
             color: $color-white;
 
             &-1 {
-                background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
             }            
             
             &-2 {
+                background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+            }            
+            
+            &-3 {
                 background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
             }
         }
@@ -34,15 +38,15 @@
             transform: rotateY(180deg);
 
             &-1 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
-            }
-
-            &-2 {
                 background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
             }
 
+            &-2 {
+                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+            }
+
             &-3 {
-                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
             }
         }
     }
@@ -65,20 +69,24 @@
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
+        background-size: cover;
+
+
         
         &--1 {
-            background-image: url(../img/spotryst-artists-sample.png), 
+            background-image: url(../img/Jobly-sample-alt.png);
             // linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
         }       
         
         &--2 {
-            background-image: url(../img/Jobly-sample-alt.png), 
+            background-image: url(../img/spotryst-artists-sample.png); 
             // linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
         }       
         
         &--3 {
-            background-image: url(../img/nat-7.jpg),
-            linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+            background-image: url(../img/websynth-sample.png);
+
+            // linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
         }
 
     }
@@ -102,20 +110,20 @@
 
         &--1 {
             background-image: linear-gradient(to right bottom, 
-            rgba($color-secondary-light, 85), 
-            rgba($color-secondary-dark, .85)); 
+            rgba($color-primary-light, 30), 
+            rgba($color-primary-dark, .30)); 
         }       
         
         &--2 {
             background-image: linear-gradient(to right bottom, 
-            rgba($color-primary-light, 85), 
-            rgba($color-primary-dark, .85)); 
+            rgba($color-secondary-light, 30), 
+            rgba($color-secondary-dark, .30)); 
         }       
         
         &--3 {
             background-image: linear-gradient(to right bottom, 
-            rgba($color-tertiary-light, 85), 
-            rgba($color-tertiary-dark, .85)); 
+            rgba($color-primary-light, 30), 
+            rgba($color-primary-dark, .30)); 
         }
     }
 
@@ -152,7 +160,7 @@
     }
 
     &__description-text {
-        font-size: 2rem;
+        font-size: 1.6rem;
         // margin-bottom: 20%;
         // text-transform: uppercase;
     }
@@ -190,10 +198,14 @@
                 // clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
 
                 &-1 {
-                    background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);     
+                    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);     
                 }
     
                 &-2 {
+                    background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);     
+                }                
+                
+                &-3 {
                     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);     
                 }
             }

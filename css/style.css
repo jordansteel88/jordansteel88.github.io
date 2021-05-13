@@ -214,7 +214,7 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
   .btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
+    transform: scaleX(1.1) scaleY(1.2);
     opacity: 0; }
 
 .btn:active, .btn:focus {
@@ -288,18 +288,20 @@ body {
     .card__side--front {
       color: #fff; }
       .card__side--front-1 {
-        background-image: linear-gradient(to right, #22cc55, #339900); }
+        background-image: linear-gradient(to right, #127fe6, #001485); }
       .card__side--front-2 {
+        background-image: linear-gradient(to right, #22cc55, #339900); }
+      .card__side--front-3 {
         background-image: linear-gradient(to right, #127fe6, #001485); }
     .card__side--back {
       background-color: #003cd5;
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #22cc55, #339900); }
-      .card__side--back-2 {
         background-image: linear-gradient(to right bottom, #127fe6, #001485); }
+      .card__side--back-2 {
+        background-image: linear-gradient(to right bottom, #22cc55, #339900); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+        background-image: linear-gradient(to right bottom, #127fe6, #001485); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -311,13 +313,14 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 3px;
-    border-top-right-radius: 3px; }
+    border-top-right-radius: 3px;
+    background-size: cover; }
     .card__picture--1 {
-      background-image: url(../img/spotryst-artists-sample.png); }
-    .card__picture--2 {
       background-image: url(../img/Jobly-sample-alt.png); }
+    .card__picture--2 {
+      background-image: url(../img/spotryst-artists-sample.png); }
     .card__picture--3 {
-      background-image: url(../img/nat-7.jpg), linear-gradient(to right bottom, #2998ff, #5643fa); }
+      background-image: url(../img/websynth-sample.png); }
   .card__heading {
     font-size: 4rem;
     font-weight: 600;
@@ -333,11 +336,11 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, #22cc55, rgba(51, 153, 0, 0.85)); }
+      background-image: linear-gradient(to right bottom, #127fe6, rgba(0, 20, 133, 0.3)); }
     .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, #127fe6, rgba(0, 20, 133, 0.85)); }
+      background-image: linear-gradient(to right bottom, #22cc55, rgba(51, 153, 0, 0.3)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, #127fe6, rgba(0, 20, 133, 0.3)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -361,7 +364,7 @@ body {
     text-align: center;
     color: #fff; }
   .card__description-text {
-    font-size: 2rem; }
+    font-size: 1.6rem; }
   .card__description-span {
     display: block;
     margin-bottom: 5%; }
@@ -377,8 +380,10 @@ body {
         .card__side--back {
           transform: rotateY(0); }
           .card__side--back-1 {
-            background-image: linear-gradient(to right, #22cc55, #339900); }
+            background-image: linear-gradient(to right, #127fe6, #001485); }
           .card__side--back-2 {
+            background-image: linear-gradient(to right, #22cc55, #339900); }
+          .card__side--back-3 {
             background-image: linear-gradient(to right, #127fe6, #001485); }
       .card:hover .card__side--front {
         transform: rotateY(0); }
