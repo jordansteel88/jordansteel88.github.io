@@ -145,6 +145,8 @@ body {
   height: 40px; }
   .u-logofy-resume {
     width: 40px; }
+    .u-logofy-resume-small {
+      width: 25px; }
   .u-logofy-footer {
     height: 2rem;
     color: #fff; }
@@ -179,7 +181,13 @@ body {
       margin-right: 1rem !important; } }
 
 .u-margin-left {
-  margin-left: 11rem !important; }
+  margin-left: 8rem !important; }
+  @media (max-width: 56.25em) {
+    .u-margin-left {
+      margin-left: 10rem !important; } }
+  @media (max-width: 37.5em) {
+    .u-margin-left {
+      margin: 0 auto; } }
 
 .u-margin-left-small {
   margin-left: 1rem !important; }

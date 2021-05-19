@@ -12,6 +12,10 @@
 
     &-resume {
         width: 40px;
+
+        &-small {
+          width: 25px;
+        }
     }
 
     &-footer {
@@ -52,7 +56,18 @@
     }
 }
 
-.u-margin-left { margin-left: 11rem !important ;}
+.u-margin-left { 
+  margin-left: 8rem !important;
+
+  @include respond(tab-port) {
+    margin-left: 10rem !important;
+  }    
+  
+  @include respond(phone) {
+      // margin-left: 5.5rem !important;
+      margin: 0 auto;
+  }
+}
 
 .u-margin-left-small { margin-left: 1rem !important ;}
       
